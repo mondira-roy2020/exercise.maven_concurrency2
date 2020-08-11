@@ -4,6 +4,7 @@ public class MyObject implements Runnable {
     public void run() {
         // TODO
         String threadname = Thread.currentThread().getName();
+        int priority = Thread.currentThread().getPriority();
         if(threadname.equalsIgnoreCase("main") ){
             System.out.println("Thread[" + "My First Thread"+","+ 5+","+"main" +"]");
         } else {
