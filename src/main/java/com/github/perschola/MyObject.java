@@ -5,7 +5,7 @@ public class MyObject implements Runnable {
         // TODO
         String threadname = Thread.currentThread().getName();
         if(threadname.equalsIgnoreCase("main") ){
-            System.out.println("Thread[" + "Thread-0"+","+ 5+","+"main" +"]");
+            System.out.println("Thread[" + "My First Thread"+","+ 5+","+"main" +"]");
         } else {
             System.out.println("Thread[" + Thread.currentThread().getName() + "," + 5 + "," + "main" + "]");
         }
